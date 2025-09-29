@@ -267,7 +267,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Sourov Ahmed** - *Initial work* - [@souroverse15](https://github.com/souroverse15)
+- **Sourove Ahmed** - *Initial work* - [@souroverse15](https://github.com/souroverse15)
 
 ## 🙏 Acknowledgments
 
