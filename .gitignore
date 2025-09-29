@@ -1,0 +1,110 @@
+# miniFS - Git Ignore File
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Executables
+mkfs_builder
+mkfs_adder
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Test files
+test.img
+test_with_file.img
+test.txt
+*.test
+
+# File system images (exclude from version control)
+*.img
+*.image
+*.fs
+
+# Core dumps and crash reports
+core
+*.core
+vgcore.*
+*.crash
+
+# Profiling data
+gmon.out
+*.prof
+
+# Static analysis output
+*.scan
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Log files
+*.log
+
+# Package files
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Memory debugging
+valgrind-out.txt
+*.valgrind
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Doxygen documentation
+docs/html/
+docs/latex/
+
+# CMake (if added later)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# Autotools (if added later)
+autom4te.cache/
+config.h
+config.log
+config.status
+configure
+Makefile.in
+aclocal.m4
+
+# Tags files
+tags
+TAGS
+.tags
+
+# Local environment
+.env
+.envrc
+
+# Backup files created by editors
+*~
+\#*\#
+.\#*
